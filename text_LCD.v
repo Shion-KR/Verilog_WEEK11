@@ -108,6 +108,9 @@ begin
             LINE1 :
                 if(cnt >= 20) cnt = 0;
                 else cnt = cnt + 1;
+            LINE2 :
+                if(cnt >= 20) cnt = 0;
+                else cnt = cnt + 1;
             DELAY_T :
                 if(cnt >= 5) cnt = 0;
                 else cnt = cnt + 1;
